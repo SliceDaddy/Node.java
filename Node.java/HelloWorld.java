@@ -148,15 +148,70 @@ public class HelloWorld {
 //			}while(i>-10);
 //			
 //			// use while loop to print A[i]
-			int A[] = {1,2,4,5,7};
-			int i =0;{
-			while( i<A[i]){
-				System.out.println(A[i++] + "|t"); }
-			}
+//			int A[] = {1,2,4,5,7};
+//			int i =0;{
+//			while( i<A[i]){
+//				System.out.println(A[i++] + "|t"); }
+//			}
+		// class 7
+		String str = "A123";
+		int a ;
+		try{
+			
+			a = Integer.parseInt(str);
+		}catch(Exception e){ // number format eception 
+			System.out.prinrtln("exception here");
+			e.printStackTrace();
+		}
+		System.out.println("The value of a is :"+a);
 }
-		
-				
+		String str = "-000000123";
+		int a = 0;
+		int A[] ={1,2,3};
+		Node node = null ;
+		try{
+			a = Integer.parseInt(str)
+			// transfer string to interger
+		//	String sss = ""+a
+		//	sss = Integer.toString(a);
+			a = A[-1];
+			System.out.println(node.val );
+		}catch		// class 7
+		String str = "A123";
+		int a ;
+		try{
+			
+			a = Integer.parseInt(str);
+		}catch(Exception e){ // number format eception 
+			System.out.prinrtln("exception here");
+			e.printStackTrace();
+		}
+		System.out.println("The value of a is :"+a);
+}
+		String str = "-000000123";
+		int a = 0;
+		int A[] ={1,2,3};
+		try{
+			a = Integer.parseInt(str)
+			// transfer string to interger
+		//	String sss = ""+a
+		//	sss = Integer.toString(a);
+			a = A[-1];
+			System.out.println(node.val );
+		}catch (Exception e){ // number format eception 
+		//	System.out.prinrtln("exception here");
+			e.printStackTrace();
+		}	
+		System.out.println("The value of a is :"+a); 
+		//	System.out.prinrtln("exception here");
+			e.printStackTrace();
+		}	
+		System.out.println("The value of a is :"+a);
+	}
 
 
 		
-
+//int i =0;{
+//while( i<A[i]){
+//	System.out.println(A[i++] + "|t"); }
+//}
